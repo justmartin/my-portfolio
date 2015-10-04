@@ -1,3 +1,22 @@
 html{
-	background:black;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: rgba(0,50,50,0.5);
+}
+header{ 
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+img.portfolio{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
 }
