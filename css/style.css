@@ -1,7 +1,10 @@
 html{
+	margin-top: 25px;
+	margin-bottom: 25px;
 	margin-left: 100px;
 	margin-right: 100px;
 	background: rgba(0,50,50,0.5);
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 header{ 
 	text-align: center;
@@ -14,9 +17,21 @@ hr{
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
+img {
+   padding:1px;
+   border:1px solid black;
+   background-color: rgba(0, 0, 0, 0);
+}
 img.portfolio{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    border-width: 3px;
+}
+img.aboutme{
+	max-width: 200px;
+	max-height: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
